@@ -1,8 +1,5 @@
 import { useState } from "react";
 import "./App.css";
-import cardOne from "./assets/cardOne.png";
-import cardTwo from "./assets/cardTwo.png";
-import cardThree from "./assets/cardThree.png";
 import Card from "./components/card";
 import ColorButton from "./components/button";
 import { FaArrowRight } from "react-icons/fa";
@@ -15,19 +12,19 @@ function App() {
       title: "Work seamlessly",
       subtitle:
         "Work seamlessly across your organization on a platform designed for collaboration.",
-      image: cardOne,
+      image: "/assets/cardOne.png",
     },
     {
       title: "Transform your culture",
       subtitle:
         "Embrace innersource, iterate faster, and ship more frequently using best tools from open source teams.",
-      image: cardTwo,
+      image: "/assets/cardTwo.png",
     },
     {
       title: "Learn as you build",
       subtitle:
         "Get insight into how your team builds today with community-backed KPIs.",
-      image: cardThree,
+      image: "/assets/cardThree.png",
     },
   ];
 
